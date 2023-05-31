@@ -33,9 +33,7 @@ body {
   border-style: none;
 }
 
-.img-search:hover {
-  cursor: pointer;
-}
+
 
 /* search container styles */
 
@@ -82,45 +80,6 @@ body {
   font-weight: 700;
 }
 
-.booklist-container {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 1.25rem;
-  overflow-x: scroll;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: x mandatory;
-  scroll-padding-right: 1rem;
-  scroll-behavior: smooth;
-
-  padding-bottom: 1rem;
-}
-
-.book-container {
-  display: grid;
-  grid-auto-rows: auto;
-  gap: 0.5rem;
-  padding: 0.5rem;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
-
-.book-container:hover {
-  cursor: pointer;
-}
-
-.book-container img {
-  object-fit: cover;
-  width: 250px;
-  border-radius: 0.125rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-.book-container p {
-  font-weight: 600;
-  font-size: 1.25em;
-  line-height: 1.75rem;
-}
-
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -150,7 +109,7 @@ body {
 #container_livros a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 8px;
-  background: #4a8bfb;
+  background: #0059ff;
   color: white;
   padding: 2rem 3rem;
   margin: 2rem 1rem;
@@ -158,13 +117,13 @@ body {
 
 body {
   padding: 25px;
-  background-color: white;
+  background-color: 0059ff;
   color: black;
   font-size: 25px;
 }
 
 .dark-mode {
-  background-color: #3a3a3a;
+  background-color: #363636;
   color: white;
 }
 
